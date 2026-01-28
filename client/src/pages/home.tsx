@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Instagram, Facebook, Phone, MapPin, MessageCircle, ExternalLink, Sparkles } from "lucide-react";
+import { Instagram, Facebook, Phone, MapPin, ExternalLink, Sparkles } from "lucide-react";
+import { WhatsAppOutline } from "@/components/icons/whatsapp";
 import logo from "@assets/d832cfd3-3661-495e-b4df-94ba89c2eb3a_1769619854329.webp";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -122,7 +123,7 @@ export default function Home() {
                         </a>
                         <a href={branch.whatsapp} target="_blank" rel="noreferrer" className="flex-1">
                           <Button variant="outline" className="w-full h-14 rounded-2xl border-white/10 bg-white/5 font-bold hover:bg-green-500/20 hover:text-green-400 hover:border-green-500/30 transition-all">
-                            <MessageCircle className="ml-2 h-5 w-5" />
+                            <WhatsAppOutline className="ml-2 h-6 w-6" />
                             واتس
                           </Button>
                         </a>
